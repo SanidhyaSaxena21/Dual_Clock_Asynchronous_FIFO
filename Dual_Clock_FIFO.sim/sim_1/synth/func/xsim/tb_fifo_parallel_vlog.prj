@@ -1,9 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  \
-"tb_fifo_parallel_func_synth.v" \
-
-sv xil_defaultlib  \
-"../../../../../Dual_Clock_FIFO.srcs/sim_1/new/tb_fifo_parallel.sv" \
-
-# Do not sort compile order
-nosort

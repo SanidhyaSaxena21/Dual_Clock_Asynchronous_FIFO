@@ -1,6 +1,0 @@
-0.7
-2020.2
-Oct 13 2023
-20:47:58
-E:/IISC/Dual_Clock_FIFO/Dual_Clock_FIFO.sim/sim_1/synth/timing/xsim/tb_fifo_parallel_time_synth.v,1723374238,verilog,,,,FIFO_MEM;FIFO_TOP;RAM32M_UNIQ_BASE_;RAM32X1D_HD1;RAM32X1D_UNIQ_BASE_;RPTR_EMPTY;WPTR_FULL;dff_sync;dff_sync_0;glbl,,uvm,,,,,,
-E:/IISC/Dual_Clock_FIFO/Dual_Clock_FIFO.srcs/sim_1/new/tb_fifo_parallel.sv,1723367206,systemVerilog,,,,tb_fifo_parallel,,uvm,,,,,,
