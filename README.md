@@ -35,14 +35,15 @@ The repository contains the following files:
 ```plaintext
 Dual_Clock_Asynchronous_FIFO/
 ├── rtl/                       # RTL code for the FIFO
-│   ├── FIFO_MEMORY.v      # Verilog code for Dual Clock FIFO
-│   └── RPTR_EMPTY.v  # Verilog code for Gray Code conversion
-|   └── WPTR_FULL.v  # Verilog code for Gray Code conversion
-|   └── gray_code_converter.v  # Verilog code for Gray Code conversion
-|   └── gray_code_converter.v  # Verilog code for Gray Code conversion
+│   ├── FIFO_MEMORY.v          # Verilog code for Dual Clock FIFO Meory
+│   └── RPTR_EMPTY.v           # Verilog code for Read pointer Logic for Empty flag
+|   └── WPTR_FULL.v            # Verilog code for Write pointer Logic for Full flag
+|   └── sync_w2r.v             # Verilog code for two flip flop synchroniser
+|   └── FIFO_TOP.v             # Verilog code for DUAL CLOCK FIFO TOP
 |
 ├── tb/                        # Testbench files
-│   └── dual_clock_fifo_tb.v   # Testbench for the Dual Clock FIFO
+│   └── tb_fifo.sv             # Testbench for the Dual Clock FIFO
+|   └── tb_fifo_parallel.sv    # Testbench for the Dual Clock FIFO with fork Join
 ├── docs/                      # Documentation and diagrams
 │   └── architecture_diagram.png
 └── README.md                  # Project overview and instructions
