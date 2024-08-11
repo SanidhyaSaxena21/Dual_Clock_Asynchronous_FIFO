@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IISC/Dual_Clock_FIFO/Dual_Clock_FIFO.sim/sim_1/synth/timing/xsim/tb_fifo_parallel_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD1
+INFO: [VRFC 10-311] analyzing module FIFO_MEM
+INFO: [VRFC 10-311] analyzing module FIFO_TOP
+INFO: [VRFC 10-311] analyzing module RPTR_EMPTY
+INFO: [VRFC 10-311] analyzing module WPTR_FULL
+INFO: [VRFC 10-311] analyzing module dff_sync
+INFO: [VRFC 10-311] analyzing module dff_sync_0
+INFO: [VRFC 10-311] analyzing module glbl

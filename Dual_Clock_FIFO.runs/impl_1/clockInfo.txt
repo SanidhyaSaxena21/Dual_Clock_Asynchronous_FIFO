@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2023.2
+| Date         : Sun Aug 11 16:35:55 2024
+| Host         : DESKTOP-S44V6ID
+| Design       : checkpoint_FIFO_TOP
+| Device       : xc7a35ti-cpg236-1L-I-
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+
