@@ -47,3 +47,7 @@ Dual_Clock_Asynchronous_FIFO/
 ├── docs/                      # Documentation and diagrams
 │   └── architecture_diagram.png
 └── README.md                  # Project overview and instructions
+```
+## Architecture 
+![Asynchronous Dual clock FIFO Architecture](Docs/FIFO_Block_Diagram.png)
+We have two 2 clock domain WRITE CLK and READ CLK, and the data has to be transmitted from read domain to write domain. 
